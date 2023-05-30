@@ -85,7 +85,7 @@ button{
     font-weight: bold;
     margin-block: 10px;
     border-radius: 20px;
-
+    cursor: pointer;
 }
 
 button:hover{
