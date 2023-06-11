@@ -10,10 +10,12 @@ ratingPg.style.color = "red";
 imageDiv = `<img src="images/illustration-thank-you.svg" alt="">`
 
 
+
 Btn.addEventListener('click', function(){
-    mainDiv.innerHTML = `${imageDiv}<br> ${ratingPg} <br>
-     ${headerDiv}
+    // mainDiv.innerHTML = `${imageDiv}<br> ${ratingPg} <br>
+    //  ${headerDiv}
     `
+    document.mainDiv.append("ratingPg")
     console.log("okay")
 
-});
+})
